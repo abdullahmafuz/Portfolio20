@@ -10,6 +10,61 @@ body{
     overflow: hidden ;
     background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
 
+    font-family: 'Rubik', sans-serif;
+
+
+    &__header{
+        position: absolute;
+        display: flex;
+        color: white;
+        z-index: 9;
+        &--left{
+           
+            padding:0 3rem;
+            cursor: pointer;
+                
+                &:hover{
+                    background-color: rgb(114, 114, 114);
+                    clip-path: polygon(0% 0%, 89% 0, 100% 50%, 89% 100%, 0% 100%);
+                    transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+                }
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            cursor: pointer;
+        }
+        &--right{
+            position: fixed;
+            top: 0;
+            right: 0;
+            text-align: right;
+            
+            ul{
+                list-style: none;
+    
+            }
+            
+            li{
+                display: inline;
+                text-decoration: none;
+                color: white;
+                padding: 1rem 2rem;
+                font-weight: 900;
+               
+                cursor: pointer;
+                
+                &:hover{
+                    background-color: rgb(114, 114, 114);
+                    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+                    transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+                }
+            }
+        }
+    }
+
+
+
     &__container{
         display: flex;
     }
