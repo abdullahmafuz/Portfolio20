@@ -217,7 +217,7 @@
           ]),
           e
         );
-      })())("Abdullah Mafuz", { color: "#FFFFFF", size: b.a.isMobile ? 0.6 : 0.8 });
+      })())("Abdullah Mohammed", { color: "#FFFFFF", size: b.a.isMobile ? 0.6 : 0.8 });
     (M.position.x -= 0.5 * M.basePosition), (M.position.y += 0.15);
 
    var N = new ((function(t) {
@@ -245,7 +245,7 @@
           ]),
           e
         );
-      })())("Web Developer", { color: "#FFFFFF", size: b.a.isMobile ? 0.3 : 0.4 });
+      })())("Full Stack data Engineer", { color: "#FFFFFF", size: b.a.isMobile ? 0.3 : 0.4 });
     (N.position.x -= 0.5 * N.basePosition), (N.position.y += -0.35);
     var _ = [
         "#ff008e",
